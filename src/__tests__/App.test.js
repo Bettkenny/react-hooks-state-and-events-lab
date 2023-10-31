@@ -1,6 +1,6 @@
 import "@testing-library/jest-dom";
 import { render, screen, fireEvent } from "@testing-library/react";
-import App from "../components/App";
+import App from "components/App";
 
 test("displays in 'light' mode when initialized", () => {
   const { container } = render(<App />);
